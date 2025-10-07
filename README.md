@@ -1,4 +1,4 @@
-# @indroneelray/ember-quill
+# @indroneelray/ember-quill-2
 
 The [Quill](https://quilljs.com/) rich text editor for Ember with **Quill 2.0 support**.
 
@@ -20,9 +20,9 @@ The [Quill](https://quilljs.com/) rich text editor for Ember with **Quill 2.0 su
 ## Installation
 
 ```bash
-npm install @indroneelray/ember-quill
+npm install @indroneelray/ember-quill-2
 # or
-yarn add @indroneelray/ember-quill
+yarn add @indroneelray/ember-quill-2
 ```
 
 ## Usage
