@@ -246,7 +246,6 @@ options are supported when initialising Quill:
 - `modules`
 - `placeholder`
 - `readOnly`
-- `scrollingContainer`
 - `theme`
 
 For example:

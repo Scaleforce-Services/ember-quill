@@ -37,7 +37,6 @@ export default class QuillEditorComponent extends Component {
       modules: this.modules,
       placeholder: this.args.placeholder,
       readOnly: this.args.readOnly ?? false,
-      scrollingContainer: this.args.scrollingContainer ?? null,
       theme: this.args.theme,
     });
 
