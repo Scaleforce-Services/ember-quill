@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 import Quill from 'quill';
-import { inject as service } from '@ember/service';
+import { service } from '@ember/service';
 import { action } from '@ember/object';
 import { guidFor } from '@ember/object/internals';
 import { schedule } from '@ember/runloop';

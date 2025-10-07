@@ -2,13 +2,11 @@
 
 The [Quill](https://quilljs.com/) rich text editor for Ember.
 
-
 ## Compatibility
 
-* Ember.js v4.8 or above
-* Ember CLI v4.8 or above
-* Node.js v18 or above
-
+- Ember.js v5.8 or above
+- Ember CLI v5.8 or above
+- Node.js v18 or above
 
 ## Installation
 
@@ -360,7 +358,7 @@ Then inject the service, for example:
 
 ```js
 import Component from '@glimmer/component';
-import { inject as service } from '@ember/service';
+import { service } from '@ember/service';
 import { action } from '@ember/object';
 
 export default class CustomComponent extends Component {
@@ -468,7 +466,6 @@ test('it renders', async function (assert) {
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 ## License
 
