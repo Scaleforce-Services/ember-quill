@@ -1,1 +1,1 @@
-export { default } from '@cloudcreativity/ember-quill/components/quill/toolbar';
+export { default } from '@indroneelray/ember-quill-2/components/quill/toolbar';

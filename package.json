@@ -1,6 +1,6 @@
 {
   "name": "@indroneelray/ember-quill-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ember addon for Quill rich text editor with Quill 2.0 support. Forked from @cloudcreativity/ember-quill.",
   "keywords": [
     "ember-addon",

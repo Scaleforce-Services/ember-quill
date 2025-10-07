@@ -1,1 +1,1 @@
-export { default } from '@cloudcreativity/ember-quill/components/quill/toolbar/button-or-select';
+export { default } from '@indroneelray/ember-quill-2/components/quill/toolbar/button-or-select';

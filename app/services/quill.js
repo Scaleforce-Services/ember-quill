@@ -1,1 +1,1 @@
-export { default } from '@cloudcreativity/ember-quill/services/quill';
+export { default } from '@indroneelray/ember-quill-2/services/quill';
