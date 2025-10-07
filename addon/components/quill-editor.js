@@ -149,7 +149,7 @@ export default class QuillEditorComponent extends Component {
     this.quill.off('text-change', this.doLength);
     this.quill.off('text-change', this.doWords);
     this.quill.off('text-change', this.doChange);
-    this.quill.off('text-change', this.onText);
+    this.quill.off('text-change', this.doText);
 
     this.quill = null;
     this.value = null;
