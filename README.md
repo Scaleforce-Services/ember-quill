@@ -445,10 +445,14 @@ test('it renders', async function (assert) {
     ],
   });
 
+  this.set('setDelta', (delta)=>{
+    this.set('delta', delta)
+  })
+
   await render(hbs`
     <QuillEditor
       @delta={{this.delta}}
-      @onChange={{action (mut this.delta)}}
+      @onChange={{this.setDelta}}
     />
   `);
 

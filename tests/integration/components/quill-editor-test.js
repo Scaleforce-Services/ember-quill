@@ -14,11 +14,14 @@ module('Integration | Component | quill-editor', function(hooks) {
     };
 
     this.set('delta', delta);
+    this.set('setDelta', (delta)=>{
+      this.set('delta', delta)
+    })
 
     await render(hbs`
       <QuillEditor
         @delta={{this.delta}}
-        @onChange={{action (mut this.delta)}}
+        @onChange={{this.setDelta}}
         class="foo"
       />
     `);

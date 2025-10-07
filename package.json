@@ -1,6 +1,6 @@
 {
   "name": "@cloudcreativity/ember-quill",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-beta.1",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon",

@@ -7,6 +7,16 @@ module('Integration | Component | quill', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
+
+    this.set('text', '');
+    this.set('delta', { ops: [] });
+    this.set('setDelta', (delta)=>{
+      this.set('delta', delta)
+    })
+    this.set('setText', (text)=>{
+      this.set('text', text)
+    })
+
     await render(hbs`
       <Quill as |Ql|>
         <Ql.toolbar as |Tb|>
@@ -14,8 +24,8 @@ module('Integration | Component | quill', function(hooks) {
           <Tb.italic />
         </Ql.toolbar>
         <Ql.editor
-          @onChange={{action (mut this.delta)}}
-          @onText={{action (mut this.text)}}
+          @onChange={{this.setDelta}}
+          @onText={{this.setText}}
         />
         <p data-test-length>{{Ql.length}}</p>
         <p data-test-characters>{{Ql.characters}}</p>
