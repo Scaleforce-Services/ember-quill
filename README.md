@@ -5,9 +5,9 @@ The [Quill](https://quilljs.com/) rich text editor for Ember.
 
 ## Compatibility
 
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
+* Ember.js v4.4 or above
+* Ember CLI v4.4 or above
+* Node.js v14 or above
 
 
 ## Installation
