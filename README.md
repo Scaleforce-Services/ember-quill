@@ -1,6 +1,15 @@
-# @cloudcreativity/ember-quill
+# @indroneelray/ember-quill
 
-The [Quill](https://quilljs.com/) rich text editor for Ember.
+The [Quill](https://quilljs.com/) rich text editor for Ember with **Quill 2.0 support**.
+
+> **Note:** This is a fork of [@cloudcreativity/ember-quill](https://github.com/cloudcreativity/ember-quill) updated to support Quill 2.0.3. All credit for the original implementation goes to [Christopher Gammie](https://github.com/cloudcreativity) and contributors.
+
+## What's Different in This Fork?
+
+- ✅ **Quill 2.0.3 support** (upgraded from 1.3.7)
+- ✅ Updated to Ember 6.4+
+- ✅ Bug fixes and compatibility improvements
+- ✅ Removed deprecated `scrollingContainer` option
 
 ## Compatibility
 
@@ -10,8 +19,10 @@ The [Quill](https://quilljs.com/) rich text editor for Ember.
 
 ## Installation
 
-```
-ember install @cloudcreativity/ember-quill
+```bash
+npm install @indroneelray/ember-quill
+# or
+yarn add @indroneelray/ember-quill
 ```
 
 ## Usage
